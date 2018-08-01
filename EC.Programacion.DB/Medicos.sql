@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Medicos]
+(
+	[Id] BIGINT NOT NULL IDENTITY,
+	[Nombre] VARCHAR(50) NOT NULL,
+	[ApellidoPaterno] VARCHAR(50) NOT NULL,
+	[ApellidoMaterno] VARCHAR(50) NOT NULL,
+	[EsActivo] BIT NOT NULL,
+	CONSTRAINT PK_Medicos_ID PRIMARY KEY (Id)
+)
